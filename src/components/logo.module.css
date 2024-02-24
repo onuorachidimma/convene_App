@@ -1,0 +1,28 @@
+.logo{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    display: flex;
+    color: blue;
+    align-items: center;
+    /* background-color: green; */
+    
+}
+
+.logoContainer{
+  
+}
+
+.logoDiv{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.logoDiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

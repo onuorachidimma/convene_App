@@ -1,0 +1,13 @@
+.navContainer{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    /* background-color: blue; */
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
