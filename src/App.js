@@ -14,6 +14,7 @@ function App() {
       
       <Routes>
     
+        
         <Route path="/events" element={<Events />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/signup" element={<SignUp />}/>
