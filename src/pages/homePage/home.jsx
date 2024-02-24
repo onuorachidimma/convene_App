@@ -3,7 +3,7 @@ import Nav from "../../components/header/nav"
 
 const Home = () =>{
     return(
-        <div>
+        <div className={styles.homeContainer}>
             
             <Nav />
         </div>
