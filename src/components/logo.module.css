@@ -1,9 +1,10 @@
 .logo{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 60px;
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-size: 50px;
     display: flex;
     color: blue;
     align-items: center;
+    font-weight: 800;
     /* background-color: green; */
     
 }
@@ -13,8 +14,8 @@
 }
 
 .logoDiv{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     /* background-color: yellow; */
