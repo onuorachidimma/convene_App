@@ -1,11 +1,12 @@
 import styles from "./nav.module.css"
-import Logo from "../logo"
+import Logo from "./logo"
 import { Routes, Route, Link } from "react-router-dom"
 import SignUp from "../../pages/login-signUp/signup"
 import Login from "../../pages/login-signUp/login"
 import Events from "../../pages/events/events"
 import Contact from "../../pages/contact/contactus"
 import Home from "../../pages/homePage/home"
+
 
 
 const Nav = () =>{

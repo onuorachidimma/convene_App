@@ -1,5 +1,5 @@
 import styles from "./logo.module.css"
-import LogoImage from "../logo2.jpeg"
+import LogoImage from "../../../src/logo2.jpeg"
 
 const Logo = (props) =>{
     return(
