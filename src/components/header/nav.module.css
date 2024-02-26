@@ -1,15 +1,14 @@
 .navContainer{
     display: flex;
-    /* background-color: red; */
+    background-color: #181D50;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgb(188, 175, 245);
+    border-bottom: 2px solid #FF731D;
     padding: 0 30px;
     margin-bottom: 5rem;
 }
 
 nav{
-    /* background-color: blue; */
     width: 30%;
     display: flex;
     justify-content: space-between;
@@ -17,4 +16,5 @@ nav{
 
 .navLink{
     text-decoration: none;
+    color: #FFF7E9;
 }
