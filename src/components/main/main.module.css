@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+/* ################ HERO SECTION ############### */
+
 .heroContainer{
     display: flex;
     justify-content: space-between;
     width: 85%;
     margin: auto;
-    
+    margin-bottom: 5rem;
 }
 
 .conveneIntro{
@@ -37,10 +39,48 @@
     margin-bottom: 1rem;
 }
 
-/* .mod{
-    width: 50%;
-    height: 500px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    background-color: red;
-} */
+/* ############## FEATURES SECTION ################ */
+
+.featuresContainer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 71px;
+    margin-bottom: 3rem;   
+}
+
+.AppFeauturesContainer{
+    width: 27%;
+    text-align: center;  
+}
+
+.featureHeading{
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+
+.featureDescription{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.featuresSignupContainer{
+    background-color: rgb(23, 23, 182);
+    padding: 100px 0;
+    margin-bottom: 5rem;
+}
+
+.featuresSignUp{
+    text-align: center;
+}
+
+.featuresSignUpBtn{
+    text-decoration: none;
+    border: 1px solid rgb(113, 113, 235);
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+    color: blue;
+}
