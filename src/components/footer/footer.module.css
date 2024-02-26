@@ -1,0 +1,65 @@
+.footerContainer{
+    background-color: #181D50;
+    color: #FFF7E9;
+    padding: 50px 71px 100px 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo, .slogan{
+    color: #FFF7E9;
+}
+
+.slogan{
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+.hello, .myEmailResume{
+    color: #FFF7E9;
+    font-size: 18px;
+}
+
+.myEmailResume{
+    /* padding-bottom: 2px; */
+    text-decoration: none;
+    border-bottom: 1px solid #FFF7E9;
+}
+
+.footerContact, .newsletter{
+    line-height: 2.5rem;
+}
+
+.newsletter{
+    width: 28%;
+    position: relative;
+}
+
+.subscribe{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+}
+
+.input{
+    background-color: #FFF7E9;
+    border-radius: 40px;
+    text-indent: 10px;
+    width: 100%;
+    
+}
+
+
+.input:hover, .input:focus{
+    background-color: #FFF7E9;
+    outline: none;
+}
+
+.button{
+    position: absolute;
+    right: 10px;
+    bottom: 29px;
+    border-radius: 40px;
+    background-color: #1746A2;
+    color: #FFF7E9;
+}
