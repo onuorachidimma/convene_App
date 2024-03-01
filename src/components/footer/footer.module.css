@@ -1,9 +1,15 @@
 .footerContainer{
     background-color: #181D50;
+    padding-bottom: 50px;
+}
+
+.footerContactContainer{
+    
     color: #FFF7E9;
-    padding: 50px 71px 100px 71px;
+    padding: 50px 71px 50px 71px;
     display: flex;
     justify-content: space-between;
+    /* border-bottom: 1px solid #FFF7E9; */
 }
 
 .footerLogo, .slogan{
@@ -62,4 +68,18 @@
     border-radius: 40px;
     background-color: #1746A2;
     color: #FFF7E9;
+}
+
+.socialMedia{
+    width: 40%;
+    margin: auto;
+    border-top: 1px solid #FFF7E9;
+    text-align: center;
+    padding: 30px;
+}
+
+.socialMedia i{
+    margin-right: 50px;
+    font-size: 40px;
+    color: #FF731D;
 }
